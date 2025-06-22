@@ -12,7 +12,7 @@ import reactor.core.publisher.Flux;
 @AiService(
         wiringMode = AiServiceWiringMode.EXPLICIT, // 手动配置
         chatModel = "openAiChatModel", // 指定模型
-        streamingChatModel = "openAiStreamingChatModel" //
+        streamingChatModel = "openAiStreamingChatModel" // 指定流式调用对象
 )
 public interface AiConstantService {
 
